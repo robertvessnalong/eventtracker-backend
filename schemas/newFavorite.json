@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "eventId": 523434,
+      "eventName": "Cradle of Filth",
+      "eventDate": "Fri Oct 15 2021",
+      "eventAddress": "4120 Woodward Avenue",
+      "eventExtendedAddress": "Detroit, MI 48201",
+      "url": "https://seatgeek.com/clozee-16-tickets/detroit-michigan-the-majestic-theatre-3-2021-10-14-8-pm/concert/5390174",
+      "userId": "dbc80c17-9719-4a7b-b13e-75186ea08cf9"
+    }
+  ],
+  "required": ["type"],
+  "properties": {
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The type schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["event"]
+    },
+    "performerId": {
+      "$id": "#/properties/performerId",
+      "type": "integer",
+      "title": "The performerId schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [9965]
+    },
+    "performerName": {
+      "$id": "#/properties/performerName",
+      "type": "string",
+      "title": "The performerName schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["Batman"]
+    },
+    "performerImage": {
+      "$id": "#/properties/performerImage",
+      "type": "string",
+      "title": "The performerImage schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://seatgeek.com/clozee-16-tickets/detroit-michigan-the-majestic-theatre-3-2021-10-14-8-pm/concert/5390174"
+      ]
+    },
+    "performerUrl": {
+      "$id": "#/properties/performerUrl",
+      "type": "string",
+      "title": "The performerUrl schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://seatgeek.com/clozee-16-tickets/detroit-michigan-the-majestic-theatre-3-2021-10-14-8-pm/concert/5390174"
+      ]
+    },
+    "eventId": {
+      "$id": "#/properties/eventId",
+      "type": "integer",
+      "title": "The eventId schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [9965]
+    },
+    "eventName": {
+      "$id": "#/properties/eventName",
+      "type": "string",
+      "title": "The eventName schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["Batman"]
+    },
+    "eventDate": {
+      "$id": "#/properties/eventDate",
+      "type": "string",
+      "title": "The eventDate schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["Fri 0ct 15 2021"]
+    },
+    "eventAddress": {
+      "$id": "#/properties/eventAddress",
+      "type": "string",
+      "title": "The eventAddress schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["14238 Harper"]
+    },
+    "eventExtendedAddress": {
+      "$id": "#/properties/eventExtendedAddress",
+      "type": "string",
+      "title": "The eventExtendedAddress schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["Detroit, MI 48213"]
+    },
+    "eventUrl": {
+      "$id": "#/properties/eventUrl",
+      "type": "string",
+      "title": "The eventUrl schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://seatgeek.com/clozee-16-tickets/detroit-michigan-the-majestic-theatre-3-2021-10-14-8-pm/concert/5390174"
+      ]
+    },
+    "uuid": {
+      "$id": "#/properties/userId",
+      "type": "string",
+      "title": "The userId schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["dbc80c17-9719-4a7b-b13e-75186ea08cf9"]
+    }
+  },
+  "additionalProperties": false
+}
