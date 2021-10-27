@@ -105,8 +105,18 @@ API_KEY = 'YOUR_API_KEY'
 
 ## Testing
 
-Current Test are performed with Nock when called to the SeatGeek API. To perform test run:
+Current Test are performed with Jest and Nock when called to the SeatGeek API. To perform test run:
 
 ```
 npm run start
+```
+
+If you are getting a Jest error, run:
+
+```
+npm i -g jest
+
+or 
+
+npm install --save-dev jest
 ```
